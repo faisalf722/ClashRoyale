@@ -1,0 +1,42 @@
+{
+  "name": "ClashRoyale",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "CardData": {
+        "$path": "src/shared/CardData.luau"
+      },
+      "PlayCard": {
+        "$className": "RemoteEvent"
+      },
+      "UpdateElixir": {
+        "$className": "RemoteEvent"
+      }
+    },
+
+    "ServerScriptService": {
+      "ElixirManager": {
+        "$path": "src/server/ElixirManager.server.luau"
+      },
+      "CombatEngine": {
+        "$path": "src/server/CombatEngine.server.luau"
+      }
+    },
+
+    "StarterGui": {
+      "CardDeckGui": {
+        "$className": "ScreenGui",
+        "CardController": {
+          "$path": "src/client/CardController.client.luau"
+        }
+      }
+    },
+
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      }
+    }
+  }
+}

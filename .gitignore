@@ -1,0 +1,15 @@
+# Rojo binary - don't commit this
+rojo.exe
+
+# Build output
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+
+# Sourcemap
+sourcemap.json
+
+# OS files
+.DS_Store
+Thumbs.db
